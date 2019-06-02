@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cert{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cert>div{
+    margin: 20px;
+}
+
+.text{
+    width: 40%;
+    font-size: 27px;
+    font-weight: 900;
+    
+}
+
+.text::after{
+    content: url(../img/Composed-layer@1X.png);
+    display: block;
+    margin-top: 10px;
+}
+
+.pic>img{
+    width: 100%;
+}
+
+.pic{
+    width: 300px;
+}

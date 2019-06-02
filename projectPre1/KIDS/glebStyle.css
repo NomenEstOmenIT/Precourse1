@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #3F414C;
+    width: 1200px; 
+    height: 200px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: flex-start;
+margin: auto;
+color: #fff;
+}
+
+footer>img{
+    margin-left: 160px;
+}
+
+.sec{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    margin-top: 15px;
+}
+.nomer1{
+    margin: 0px 50px 0px 100px;
+}
+.knopka{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #7A61FA;
+    border: none;
+}
+

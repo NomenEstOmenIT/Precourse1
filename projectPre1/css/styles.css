@@ -1,0 +1,452 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.wrapper {
+  width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 30%;
+}
+
+.menu > li:hover {
+  color: #fec240;
+  cursor: pointer;
+}
+
+.welcome {
+  background-image: linear-gradient(to right, #8783915f, #8783916d),
+    url(../img/MainBG.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.welcome > p {
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.welcome > h2 {
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  width: 60%;
+  text-align: center;
+}
+.welcome > button {
+  border-radius: 20px;
+  background-color: #fec240;
+  color: #fff;
+  line-height: 30px;
+  border: none;
+  width: 300px;
+}
+
+.child {
+  text-align: center;
+}
+.part1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.part1 > div > img {
+  margin: 15px;
+}
+
+.part1 > div {
+  height: 175px;
+  width: 302px;
+  margin: 20px;
+  padding: 20px;
+  color: #fff;
+}
+.part1 > div {
+  background-color: #7962fd;
+  font-size: 14px;
+}
+.part1 > div:nth-child(3) {
+  background-color: #fec240;
+}
+.part2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.part2 > div {
+  height: 200px;
+  width: 302px;
+  margin: 20px;
+  padding: 20px;
+  color: #fff;
+}
+.part2 > div {
+  background-color: #7962fd;
+  font-size: 14px;
+}
+.part2 > div:nth-child(1) {
+  background-color: #fec240;
+}
+
+.part2 div > img {
+  margin: 15px;
+}
+
+.reedy {
+  font-size: 30px;
+}
+
+.div12 {
+  width: 1200px;
+  background: #fff;
+  margin-bottom: 20px;
+}
+.h22 {
+  text-align: center;
+  padding: 100px;
+  font-size: 30px;
+}
+.poragraf {
+  margin: 10px 0;
+  font-size: 14px;
+  justify-content: space-between;
+  /* letter-spacing: 10px;
+  word-spacing: 5px; */
+}
+
+.button21 {
+  width: 401px;
+  height: 57px;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: #fec240;
+  /* margin: 0 0 0 450px; */
+  margin: auto;
+  display: block;
+  color: #fff;
+  border: none;
+}
+.div {
+  margin: 0 0 0 120px;
+  width: 1050px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.cortinca {
+  width: 558px;
+  height: 364px;
+  box-shadow: 0 0 20px grey;
+  border-radius: 2%;
+  margin: 0 20px 0 20px;
+}
+.text {
+  display: inline;
+}
+.wer {
+  flex-direction: row-reverse;
+  text-align: left;
+}
+.yelow {
+  background-color: #ffedc5;
+}
+.color2 {
+  background-color: #cdc7f7;
+}
+.color3 {
+  background-color: #d7cffd;
+}
+.preTitle::before {
+  content: url(../img/pointer@1X.png);
+  display: block;
+}
+
+.learning {
+  background-image: url(../img/misha.png);
+  background-position: center;
+  background-size: cover;
+  padding: 70px 0 70px 0;
+}
+
+.format {
+  text-align: center;
+  font-size: 30px;
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont > div {
+  background-color: #7962fd;
+  height: 250px;
+  width: 300px;
+  margin: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  padding-top: 30px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cont > div::before {
+  content: "\201C";
+  color: #fec240;
+  font-size: 30px;
+}
+
+.cont > div:last-of-type {
+  background-color: #fff;
+  color: #000;
+}
+
+.cont > div > h3 {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.cont > div > p {
+  margin-bottom: 10px;
+}
+.teachers {
+  padding: 20px;
+}
+
+.teachersTitle {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.teachersList {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.teachersList > div {
+  width: 32%;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  box-shadow: 0 0 20px rgba(128, 128, 128, 0.571);
+}
+
+.teachersList > div > img {
+  width: 100%;
+  height: 250px;
+}
+
+.descTeaCh {
+  padding: 0 30px;
+}
+
+.teacherName {
+  background-color: #7a61fa;
+  color: #fff;
+  line-height: 30px;
+  width: 200px;
+  text-indent: 10px;
+}
+
+.exp {
+  color: #7c7c7c;
+  line-height: 30px;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.smthNew {
+  font-weight: 900;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.cert {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/ruslanaBg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(128, 128, 128, 0.374);
+}
+
+.cert > div {
+  margin: 20px;
+}
+
+.text {
+  width: 40%;
+  font-size: 23px;
+  font-weight: 900;
+}
+
+.text::after {
+  content: url(../img/waceRus.png);
+  display: block;
+  margin-top: 10px;
+}
+
+.pic > img {
+  width: 100%;
+}
+
+.pic {
+  width: 300px;
+}
+
+.feedback {
+  margin: auto;
+  width: 1200px;
+}
+.logo {
+  text-align: center;
+  font-size: 30px;
+}
+
+.werr {
+  text-align: center;
+}
+
+.ert {
+  text-align: center;
+  background-color: #7a61fa;
+}
+
+.rty {
+  text-align: center;
+  background-color: #fec240;
+}
+
+.qaz > div {
+  width: 30%;
+  height: 500px;
+}
+
+.qaz {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.werr {
+  background-color: #7a61fa;
+  text-align: center;
+}
+
+.jop {
+  color: #ffffff;
+
+  font-size: 14px;
+}
+
+.joi {
+  color: #ffffff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.tyu {
+  color: #faa500;
+}
+
+.tyui {
+  color: #7a61fa;
+}
+
+.qaz > div {
+  padding: 40px 30px;
+}
+
+.joi::before {
+  content: "\201C";
+  font-size: 50px;
+  display: block;
+  color: #faa500;
+}
+
+.ghj:before {
+  content: "\201C";
+  font-size: 50px;
+  display: block;
+  color: #7a61fa;
+}
+
+.secImg > img {
+  border: solid 5px rgba(255, 255, 255, 0.435);
+  border-radius: 50%;
+}
+
+footer {
+  background-color: #3f414c;
+  width: 1200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: auto;
+  color: #fff;
+}
+
+footer > img {
+  margin-left: 160px;
+}
+
+.sec {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1200px;
+  margin-top: 15px;
+}
+.nomer1 {
+  margin: 0px 50px 0px 100px;
+}
+.knopka {
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #7a61fa;
+  border: none;
+  color: #fff;
+}
