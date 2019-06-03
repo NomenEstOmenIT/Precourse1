@@ -10,11 +10,12 @@ body {
 .wrapper {
   width: 1200px;
   margin: auto;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 header {
   margin-bottom: 20px;
+  padding-top: 20px;
 }
 
 nav {
@@ -299,7 +300,7 @@ nav {
 
 .cert {
   width: 1200px;
-  margin: auto;
+  margin: 30px auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -418,18 +419,18 @@ nav {
 
 footer {
   background-color: #3f414c;
-  width: 1200px;
+  /* width: 1200px; */
   height: 200px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin: auto;
   color: #fff;
 }
 
 footer > img {
-  margin-left: 160px;
+  margin-right: 930px;
 }
 
 .sec {
@@ -440,7 +441,7 @@ footer > img {
   margin-top: 15px;
 }
 .nomer1 {
-  margin: 0px 50px 0px 100px;
+  /* margin: 0px 50px 0px 100px; */
 }
 .knopka {
   width: 200px;
